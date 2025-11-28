@@ -9,14 +9,14 @@ The dataset is divided into five training batches and one test batch, each with 
 <hr>
 <br>
 
-## Model with 93.82% Accuracy:
+## Model with 95.04% Accuracy:
 
 ```python
 loss_function = nn.CrossEntropyLoss()
 optimizer = optim.SGD(net.parameters(), lr=0.1, momentum=0.9, weight_decay=5e-4)
 scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=num_of_epochs)
 torch.manual_seed(42)
-num_of_epochs = 70
+num_of_epochs = 75
 ```
 
 ### Data Augmentation:
@@ -49,9 +49,9 @@ class MyResnet(nn.Module):
         return self.backbone(x)
 ```
 
-![alt text](charts/image93-1.png)
-![alt text](charts/image93-2.png)
-![alt text](charts/image93-3.png)
+![alt text](charts/image95-1.png)
+![alt text](charts/image95-2.png)
+![alt text](charts/image95-3.png)
 
 <hr>
 <br>
