@@ -53,6 +53,19 @@ class MyResnet(nn.Module):
 ![alt text](charts/image95-2.png)
 ![alt text](charts/image95-3.png)
 
+### Grad-CAM:
+
+![alt text](/data/grad-cam/image.png)
+![alt text](/data/grad-cam/image-1.png)
+![alt text](/data/grad-cam/image-2.png)
+![alt text](/data/grad-cam/image-3.png)
+![alt text](/data/grad-cam/image-4.png)
+![alt text](/data/grad-cam/image-5.png)
+![alt text](/data/grad-cam/image-6.png)
+![alt text](/data/grad-cam/image-7.png)
+![alt text](/data/grad-cam/image-8.png)
+![alt text](/data/grad-cam/image-9.png)
+
 <hr>
 <br>
 
